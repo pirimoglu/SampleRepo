@@ -12,6 +12,8 @@ namespace Main
     {
         protected void Application_Start()    
         {
+            //fix-5
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
