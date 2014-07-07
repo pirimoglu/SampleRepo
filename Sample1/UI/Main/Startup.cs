@@ -10,5 +10,5 @@ namespace Main
         {
             ConfigureAuth(app); 
         }
-    }
+    } 
 }
